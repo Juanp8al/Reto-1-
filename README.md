@@ -1,35 +1,5 @@
 # Actividad Final: Módulo 1 Python
 
-## 🎓 Calculadora de Nota Final de Asignatura
-
-### 1. Descripción 
-
-Este proyecto es un script de consola que calcula la nota definitiva de un estudiante en una asignatura. El sistema solicita las notas de tres cortes (dos retos y un proyecto final) y aplica un **promedio ponderado** para determinar si el estudiante "Aprueba" o "Reprueba" la materia.
-
-### 2. Explicación 
-
-El objetivo es demostrar la comprensión de los conceptos del Módulo 1 aplicados a un caso de uso académico común:
-
-* **Modularidad (Funciones `def`):** El código está estructurado en funciones con responsabilidades únicas:
-    * `validar_nota_en_rango`: Una función de validación robusta que usa `try-except` y valida que la nota esté entre 0.0 y 5.0.
-    * `calcular_nota_definitiva`: Contiene la lógica matemática (el cálculo ponderado).
-    * `obtener_estado_estudiante`: Contiene la lógica de decisión (`if/else`) para aprobar o reprobar.
-    * `main`: Controla el menú principal.
-* **Control de Flujo (`if/else`):** Se usa para la lógica clave de determinar si la nota final es aprobatoria o no.
-* **Bucles (`while`):** Se utilizan dos tipos de bucles:
-    1.  Un `while True` para el menú principal, permitiendo calcular notas de múltiples estudiantes.
-    2.  Un `while True` dentro de la función de validación para forzar al usuario a ingresar una nota válida.
-* **Buenas Prácticas:**
-    * Uso de **Constantes** (en mayúsculas) para definir los porcentajes (30%, 40%) y la nota de aprobación (3.0). Esto hace que el código sea fácil de mantener.
-    * `if __name__ == "__main__"` como punto de entrada.
-    * `f-strings` con formato (`:.2f`) para mostrar las notas con dos decimales.
-
-
-
-
-
-# Actividad Final: Módulo 1 Python
-
 ## 🅿️ Calculadora de Tarifas de Parqueadero 
 
 ### 1. Descripción 
